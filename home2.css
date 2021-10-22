@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Ephesis&family=Londrina+Solid:wght@300;400&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: url(images/bg0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.logo{
+    display: flex;
+    font-size:50px;
+   
+    padding: 10px;
+    margin-left: 50px;
+}
+ header ul{
+    list-style-type:none;
+    margin-left: 600px;
+    padding:20px;
+      
+}
+ header ul li{
+    margin: 0px 20px;
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size:large;
+    justify-content: space-between;
+    padding: 10px;
+}
+header nav ul a:hover{
+    color:crimson;
+}
+
+
+nav .up{
+    color: black;
+    font-family: Ephesis;
+   
+
+}
+nav .down{
+    color:black;
+    font-family:Open Sans Condensed light;
+    
+}
+.container{
+    display:flex;
+    /**flex-direction: column;**/
+    color: navy;
+    padding: 5px;   
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 150px;
+    padding: 60px;
+    font-size: 20px;
+    align-content: space-around;
+    
+}
+
+
+a button{
+    width: 200px;
+    height:50px;
+    border-radius: 5px;
+    color: navy;
+    background-color: rgb(253, 253, 80);
+    font-family: Londrina;
+    font-weight: 900;
+    font-size: 25px;
+}
+a button:hover{
+    background-color:rgb(219, 219, 93) ;
+}
+ footer{
+     display: flex;
+     background-color: black;
+     color: rgb(235, 173, 57);
+     flex-wrap: wrap;
+ } 
+footer .about{
+    flex-direction: column;
+    margin: 0px 100px;
+   
+}
+footer div a{
+    list-style-type: none;
+    text-decoration: none;
+   
+    font-size:small;
+    justify-content: space-between; 
+    display: flex;
+    flex-direction: column;
+}
+footer .sources a{
+    list-style-type: none;
+    text-decoration: none;
+   
+    font-size:small;
+    justify-content: space-between; 
+    display: flex;
+    flex-direction: column;
+
+}
+footer .sources{
+    margin:0px 300px;
+}
+.art{
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+   width: 800px;
+    box-shadow: 5px 5px 10px black;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1200px;
+    flex-wrap: wrap;
+    padding: 20px;
+
+
+}
+.index{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.art1{
+    margin: 20px;
+    
+    color: blue;
+    font-size: 30px;
+}
+#h{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.short{
+    /**margin: 50px 20px 0px 20px;**/
+    margin-left: 1300px;
+    margin-top: 50px;
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    
+    
+}
+.short button a{
+    text-decoration: none;
+    color: navy;
+}
+
+.short button a:hover{
+    color: blue;
+}
+
+.short button{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(221, 190, 53);
+    font-size: 20px;
+    border-radius: 5px;
+   
+}
+
+#head{
+    font-size: 50px;   
+}
+#types{
+    font-size: 60px;
+    color: crimson;
+   
+}
+.items{
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color:rgb(224, 209, 209);
+    box-shadow: 5px 5px 10px purple;
+}
+.detail{
+    font-size: 20px;
+    color: navy;
+    align-items: center;
+    display: flex;
+    
+}
+/**.items button{
+    width: 100px;
+    height: 50px;     
+    background-color: rgb(221, 190, 53);
+    font-size: 20px;
+    border-radius: 10px;
+  
+}**/
+.all{
+    display: flex;
+    flex-direction: column;
+}

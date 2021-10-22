@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.svg" type="image/icon type">
+    <link rel="stylesheet" href="home2.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>Sell your creations</title>
+</head>
+<body>
+    <header style="height: 80px;">
+        <nav class="top">
+          <div class="logo">
+              <div class="up">Artistic</div>
+              <div class="down">Fantasies<img src="images/logo.svg" alt=""></div>
+          </div>
+          <ul>
+              <li>
+              <a href="home.html">Home</a>
+              <a href="explore.html">Explore</a>
+              <a href="buy.html">Buy</a>
+              <a href="sell.html">Sell</a>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Sign in</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sign in</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Name:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Email:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Mobile:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Sign in</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </li>
+          </ul>
+      </nav>
+    </header>
+    <div class="items" style="background-color: rgb(224, 209, 209);">
+      <form class="row g-3">
+        <h3 id="h" >Fill this form to sell your art.</h3><hr>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Mobile</label>
+          <input type="number" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Jharkhand</option>
+            <option>Bihar</option>
+            <option>Maharashtra</option>
+            <option>Uttar Pradesh</option>
+            <option>Rajasthan</option>
+            <option>Madhya Pradesh</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="input-group mb-3">
+          <input type="file" class="form-control" id="inputGroupFile02">
+          <label class="input-group-text" for="inputGroupFile02">Upload</label>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Add description</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Enter details of your creation">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Agree to <a href="">T&C</a>
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+      
+    </div>
+    <footer>
+      <div class="about">
+          <p><b>About Us</b></p>
+          <ul>
+              <li>
+                  <a href="home.html">Home</a>
+                  <a href="explore.html">Explore</a>
+                  <a href="buy.html">Buy</a>
+                  <a href="sell.html">Sell</a>
+                  <a href="about.html">About</a>
+              
+              </li>
+          </ul>
+      </div>
+      <div class="sources">
+          <p><b>Resources</b></p>
+          <ul>
+              <li>
+                  <a href="">Open Source</a>
+                  <a href="">Blog</a>
+                  <a href="">Education</a>
+              </li>
+          </ul>
+      </div>
+      <div></div>
+  </footer>
+</body>
+</html>

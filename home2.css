@@ -130,7 +130,7 @@ footer .sources{
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-   width: 800px;
+    width: 800px;
     box-shadow: 5px 5px 10px black;
 }
 .content{
@@ -191,7 +191,9 @@ footer .sources{
     background-color: rgb(221, 190, 53);
     font-size: 20px;
     border-radius: 5px;
-   
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
 }
 
 #head{

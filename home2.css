@@ -20,6 +20,7 @@ nav{
 .logo{
     display: flex;
     font-size:50px;
+    flex-wrap: wrap;
    
     padding: 10px;
     margin-left: 50px;
@@ -28,6 +29,8 @@ nav{
     list-style-type:none;
     margin-left: 600px;
     padding:20px;
+    flex-wrap: wrap;
+     display: flex;
       
 }
  header ul li{
@@ -98,12 +101,12 @@ a button:hover{
 footer .about{
     flex-direction: column;
     margin: 0px 100px;
-   
+   flex-wrap: wrap;
 }
 footer div a{
     list-style-type: none;
     text-decoration: none;
-   
+    flex-wrap: wrap;
     font-size:small;
     justify-content: space-between; 
     display: flex;
@@ -112,7 +115,7 @@ footer div a{
 footer .sources a{
     list-style-type: none;
     text-decoration: none;
-   
+   flex-wrap: wrap;
     font-size:small;
     justify-content: space-between; 
     display: flex;
@@ -124,7 +127,7 @@ footer .sources{
 }
 .art{
     align-items: center;
-    
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
    width: 800px;
@@ -144,6 +147,7 @@ footer .sources{
     display: flex;
     margin: 10px;
     padding: 10px;
+    flex-wrap: wrap;
 }
 .art1{
     margin: 20px;
@@ -169,7 +173,7 @@ footer .sources{
     flex-direction: column;
     position: fixed;
     align-items: center;
-    
+    flex-wrap: wrap;
     
 }
 .short button a{
@@ -200,6 +204,7 @@ footer .sources{
 }
 .items{
     display: flex;
+    flex-wrap: wrap;
     width: 900px;
     justify-content: space-around;
     align-items: center;
@@ -216,7 +221,7 @@ footer .sources{
     color: navy;
     align-items: center;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 /**.items button{
     width: 100px;
@@ -229,4 +234,5 @@ footer .sources{
 .all{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }

@@ -35,7 +35,7 @@ header ul{
 }
 header ul li{
     margin: 0px 20px;
-    display: flex;
+    
     flex-wrap: wrap;
 }
 header nav ul a{
